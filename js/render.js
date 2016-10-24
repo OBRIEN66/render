@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".button").click(function() {
-    var code = $(".code").html();
+    var code = $(".code").text();
     $(".result").html(code);
   });
 });
