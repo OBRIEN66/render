@@ -1,6 +1,17 @@
 $(document).ready(function(){
-  $(".button").click(function() {
-    var code = $(".code").html();
-    $(".result").html(code);
+  render();
+  
+  $(".button").click(render);
+
+  $('.code').bind('DOMSubtreeModified', function() {
+    
+    if ($("#toggle").prop('checked') == true) {
+    	render()
+    }
   });
 });
+
+const render = () => {
+  var code = $(".code").text();
+  $(".result").html(code);
+}
