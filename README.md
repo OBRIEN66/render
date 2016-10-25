@@ -1,7 +1,7 @@
 # Render
 
-A simple website to edit and render html code.
+A simple website to edit and render markdown code.
 
-Below is the initial version 
+Thanks jack for getting it working
 
-![First Tests](v0.1.png)
+![First Tests](first-markdown.png)
