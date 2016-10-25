@@ -42,11 +42,3 @@ html {
 .code:focus {
   outline: 0;
 }
-
-.button {
-  padding: 5px 5px 5px 5px;
-  background-color: blue;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-}
